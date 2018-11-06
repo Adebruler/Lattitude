@@ -1,5 +1,9 @@
-.navbar {background-color: white;
+.navbar-collapse {background-color: white;
 font-size: 12px;}
+
+.navbar-header{
+  background-color: lightseagreen;
+}
 
 body {background-color: whitesmoke;}
 
@@ -82,9 +86,10 @@ footer{
 .brandhead {background-color: lightseagreen;
 font-size:30px;
 font-weight: bold;
-cursor: pointer;}
-
-.brandhead a{color:white;}
+cursor: pointer;
+float:left;
+margin-left: 5px;
+}
 
 
 .nav ul{margin:0;}
@@ -161,5 +166,6 @@ footer{
   padding: 2px;
   display: inline-block;
 }
+
 
 }
