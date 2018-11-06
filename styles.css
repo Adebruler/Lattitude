@@ -1,8 +1,58 @@
-nav {background-color: white;
+.navbar {background-color: white;
 font-size: 12px;}
 
 body {background-color: whitesmoke;}
-main {background-color: white;}
+
+.body-box {
+  background-color: white;
+  margin:5px;
+}
+
+.bordered{
+  border: 1px;
+  border-style: solid;
+  border-color: lightseagreen;
+}
+
+h1{
+  color: lightseagreen;
+  font-family: times;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.soft-link{
+  font-size: 16px;
+  line-height: 200%;
+}
+
+.soft-text{
+  color:gray;
+  font-size: 16px;
+  line-height: 200%;
+}
+
+.small-img{
+  width:50%;
+  float:left;
+}
+
+.side-graph{
+  width:49%;
+  padding: 2px;
+  display: inline-block;
+}
+
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: dimgray;
+  color:white;
+  text-align: center;
+  border-top: 10px lightseagreen solid;
+  padding:5px;
+}
 
 /* .navbar li {
   display: inline-block;
@@ -17,9 +67,10 @@ main {background-color: white;}
 
 .brandhead {background-color: lightseagreen;
 font-size:30px;
-color: #fff;
 font-weight: bold;
 cursor: pointer;}
+
+.brandhead a{color:white;}
 
 
 .nav ul{margin:0;}
@@ -33,7 +84,7 @@ cursor: pointer;}
 /* Dropdown button */
 .dropdown .dropbtn {
   cursor: pointer;
-  color: white;
+  color: #909090;
   font-size: 12px;
   border: none;
   outline: none;
@@ -47,6 +98,7 @@ cursor: pointer;}
 /* Add a 25% grey background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover, .dropbtn, .dropbtn:focus {
   background-color: #C0C0C0;
+  color: black;
 }
 
 /* Dropdown content (hidden by default) */
@@ -77,4 +129,23 @@ cursor: pointer;}
 /* Show the dropdown menu on click */
 .show {
   display: block;
+}
+
+
+@media (max-width: 992px) {
+.small-img{
+    width:40%;
+    float:left;
+}
+
+footer{
+  display:none;
+}
+
+.side-graph{
+  width:24%;
+  padding: 2px;
+  display: inline-block;
+}
+
 }
