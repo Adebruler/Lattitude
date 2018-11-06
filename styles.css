@@ -1,0 +1,80 @@
+nav {background-color: white;
+font-size: 12px;}
+
+body {background-color: whitesmoke;}
+main {background-color: white;}
+
+/* .navbar li {
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 3px;
+} */
+
+
+.brandhead {background-color: lightseagreen;
+font-size:30px;
+color: #fff;
+font-weight: bold;
+cursor: pointer;}
+
+
+.nav ul{margin:0;}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  cursor: pointer;
+  color: white;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  padding-top: 17px;
+  padding-bottom: 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a 25% grey background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover, .dropbtn, .dropbtn:focus {
+  background-color: #C0C0C0;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on click */
+.show {
+  display: block;
+}
