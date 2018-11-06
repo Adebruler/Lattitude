@@ -3,6 +3,10 @@ font-size: 12px;}
 
 body {background-color: whitesmoke;}
 
+main{
+  margin-bottom: 100px;
+}
+
 .body-box {
   background-color: white;
   margin:5px;
@@ -30,6 +34,12 @@ h1{
   color:gray;
   font-size: 16px;
   line-height: 200%;
+}
+
+.soft-bullet{
+  color:gray;
+  font-size: 16px;
+  line-height: 150%;
 }
 
 .small-img{
