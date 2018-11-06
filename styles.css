@@ -37,6 +37,10 @@ h1{
   float:left;
 }
 
+.large-img{
+  width:100%;
+}
+
 .side-graph{
   width:49%;
   padding: 2px;
