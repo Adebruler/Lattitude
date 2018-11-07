@@ -61,7 +61,8 @@ h3{
 
 .large-img{
   width:90%;
-  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .side-graph{
