@@ -29,6 +29,14 @@ h1{
   padding: 10px;
 }
 
+h3{
+  color: lightseagreen;
+  font-family: times;
+  font-weight: bold;
+  text-align: center;
+  /* padding: 10px; */
+}
+
 .soft-link{
   font-size: 16px;
   line-height: 200%;
@@ -52,7 +60,8 @@ h1{
 }
 
 .large-img{
-  width:100%;
+  width:90%;
+  align-items: center;
 }
 
 .side-graph{
