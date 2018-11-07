@@ -86,7 +86,7 @@ margin-left: 5px;
 
 
 /* media queries for small screens */
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 .small-img{
     width:40%;
     float:left;
